@@ -11,9 +11,15 @@ const char *WELCOME_MESSAGE =
     "║ DeneYap Mini kablosuz özellik testi programı ║\n"
     "╚══════════════════════════════════════════════╝\n";
 
-const char *MENU = "Mod seçin:\n1 - WiFi\n2 - Bluetooth";
+const char *MENU_MAIN = "Mod seçin:\n1 - WiFi\n2 - Bluetooth";
 
-const char *INVALID_INPUT = "Yaptığınız seçim geçerli değil!";
+const char *MSG_SCANNING_WIFI_AP = "WiFi ağları aranıyor...";
+
+const char *MENU_WIFI_NOT_FOUND = "Ağ bulunamadı.\n1 - Yeniden ara\n2 - Ana menü";
+
+const char *MENU_WIFI_AP_LIST = "Bağlanmak için bir ağ seçin:";
+
+const char *MSG_INVALID_INPUT = "Yaptığınız seçim geçerli değil!";
 
 // Hangi pin ile uyandırılacağı
 const gpio_num_t WAKE_UP_PIN = GPIO_NUM_0;
